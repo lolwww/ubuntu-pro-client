@@ -58,8 +58,8 @@ you want to invoke when running ``pro attach``. The file has two fields,
     
        sudo pro api u.pro.attach.guest.get_guest_token.v1
     
-    That command will output JSON that includes a guest token that is valid for a
-    short time, during which you can use it in your Docker build.
+    That command will output JSON that includes a guest token that is usable only once and valid for a
+    short time , during which you can use it in your Docker build.
     
     .. tip::
        If you have ``jq`` installed, you can use the following command to extract the token:
